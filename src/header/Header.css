@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.head_todo {
+  position: relative;
+  display: flex;
+  padding: 1rem 2rem;
+  width: 100%;
+  background-color: rgb(42, 165, 114);
+  color: #fff;
+  font-size: 22px;
+}
+
+.logo_app {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+@media (max-width: 900px) {
+  .head_todo {
+    position: relative;
+    display: flex;
+    width: 100%;
+    background-color: rgb(42, 165, 114);
+    color: #fff;
+    font-size: 14px;
+  }
+
+  .logo_app {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+}
