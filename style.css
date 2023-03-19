@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.head_todo {
+  position: relative;
+  display: flex;
+  padding: 1rem 2rem;
+  width: 100%;
+  background-color: rgb(42, 165, 114);
+  color: #fff;
+  font-size: 40px;
+}
+
+.form_container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.input_title,
+.content_todo {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  object-fit: cover;
+}
